@@ -11,9 +11,9 @@ Some simple Javascript methods for arrays
 ##### sort the array values according to a condition
 
 ``` 
-	Array.prototype.reduce((total, i) => { 
- 	 return total + i;
-	}, 0); 
+Array.prototype.reduce((total, i) => { 
+	 return total + i;
+}, 0); 
 ```
 ##### makes the Sum of elements in array
 
