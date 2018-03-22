@@ -10,9 +10,11 @@ Some simple Javascript methods for arrays
 `Array.prototype.sort((a,b) => a >= b ? 1 : -1 ); `
 ##### sort the array values according to a condition
 
-``` Array.prototype.reduce((total, i) => { 
-  return total + i;
-}, 0); ```
+``` 
+	Array.prototype.reduce((total, i) => { 
+ 	 return total + i;
+	}, 0); 
+```
 ##### makes the Sum of elements in array
 
 `Array.prototype.some(i => /* condition */); `
